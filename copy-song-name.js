@@ -26,7 +26,8 @@
 	if(href.match(/.+\/(kugou|xiami)\/.+/ig)){
 		$singer = $singer.next('p');
 	}
-	var songName = $name.text() + '-' + $singer.text() + '.mp3';
+	// var songName = $name.text() + ' - ' + $singer.text() + '.mp3';
+	var songName = $singer.text() + ' - ' + $name.text() + '.mp3';
 	$link.after('<span id="message" style="margin-left:5px;"></span>');
 	$link.after('<input type="text" style="position:absolute;top:-99999px;margin-left:5px;" id="songName" value="' + songName + '"/>');
 	$link.after('<a class="btn btn-info btn-sm" style="margin-left:5px;" id="btnCopy">复制歌曲名</a>');
