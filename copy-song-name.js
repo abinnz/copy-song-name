@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         音乐查询复制歌曲名
 // @namespace    https://music.liuli.lol/
-// @version      1.0.0
+// @version      1.0.1
 // @description  音乐查询复制歌曲名!
 // @author       Abinnz
 // @match        https://music.liuli.lol/music/*
